@@ -1,0 +1,59 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+}
+.firstp {
+  font-size: 14px;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--Yellow);
+}
+.firstcontain {
+  background-color: var(--White);
+  border: 1px solid var(--Gray-950);
+  width: 300px;
+  display: inline;
+  padding: 20px;
+  box-shadow: 5px 5px 0 0;
+  border-radius: 20px;
+}
+.picture {
+  width: 100%;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+h5.lol {
+  background-color: var(--Yellow);
+  border-radius: 3px;
+  border: 1px solid var(--Yellow);
+  display: inline-block;
+  padding: 7px;
+}
+.avatarflex {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 40px;
+  padding: 7px;
+}
+button {
+    background-color: var(--White);
+    border: 0;
+    cursor: pointer;
+}
+button:hover {
+    color: var(--Yellow);
+}
