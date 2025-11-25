@@ -12,6 +12,9 @@
 .firstp {
   font-size: 14px;
 }
+.secondp {
+    color: var(--Gray-500);
+}
 body {
   display: grid;
   place-items: center;
